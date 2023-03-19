@@ -1,0 +1,108 @@
+/* Estilos generales */
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	background-color: #333;
+	margin: 0;
+	padding: 0;
+}
+
+.container {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+/* Estilos del encabezado */
+header {
+	background-color: #444;
+	padding: 20px 0;
+    justify-content: center;
+    /* Resto de propiedades */
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+}
+header.mostrar{
+	opacity: 0;
+}
+
+h1 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 48px;
+	margin-left: 40%;
+    justify-content: center;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav li {
+	margin-left: 11%; 
+}
+
+nav a:hover {
+	border-bottom: 2px solid #ffffff;
+    
+}
+
+/* Estilos del índice */
+#indice {
+	background-color: #666;
+	padding: 20px;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+
+#indice h2 {
+	font-size: 40px;
+	margin-left: 35%;
+}
+
+#indice ul {
+	list-style: "·";
+	margin: 0;
+	padding: 0;
+}
+
+#indice li {
+	margin-bottom: 10px;
+	margin-left: 10%;
+}
+
+#indice a:hover {
+	color: #1a101c;
+}
+
+/* Estilos de los resúmenes */
+main {
+	padding: 40px 0;
+}
+
+h2 {
+	font-family: 'Old Standard TT', serif;
+	font-size: 36px;
+	margin: 40px 0;
+}
+
+p {
+	line-height: 1.5;
+}
+.texto{
+	font-size: 25px;
+	margin-right: 5cm;
+	margin-left: 5cm;
+}
+
+.imagen{
+	margin-left: 15cm;
+}
